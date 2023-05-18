@@ -2,5 +2,5 @@
 \contentsline {section}{\numberline {2}Code Overview}{1}{section.2}%
 \contentsline {section}{\numberline {3}Functionality and Features}{2}{section.3}%
 \contentsline {section}{\numberline {4}Usage}{2}{section.4}%
-\contentsline {section}{\numberline {5}Output Image}{2}{section.5}%
+\contentsline {section}{\numberline {5}Output}{2}{section.5}%
 \contentsline {section}{\numberline {6}Conclusion}{2}{section.6}%

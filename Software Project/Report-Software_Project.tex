@@ -18,6 +18,7 @@
 \usepackage[breaklinks=true]{hyperref}
 \usepackage{tkz-euclide} % loads  TikZ and tkz-base
 \usepackage{listings}
+\usepackage{caption}
 %
 %\usepackage{setspace}
 %\usepackage{gensymb}
@@ -305,12 +306,15 @@ columns=fullflexible
    \item The program will continue playing songs until manually terminated.
 \end{enumerate}
 
-\section{Output Image}
+\section{Output}
+\begin{enumerate}[label=(\roman*)]
+\item After executing the python code, it displays the name of the song which is being played and the user can use any of the 4 commands.
 \begin{figure}[h]
-		\includegraphics[width = \linewidth]		{images/output_screenshot.png}
-		\caption{output}
-		\label{final}
-\end{figure} 
+		\includegraphics[width=\linewidth]{images/output_screenshot.png}
+		\caption{Output Image}
+		\label{output}
+	\end{figure}
+\end{enumerate}
 
 \section{Conclusion}
    The provided Python code offers a basic music player with playback control features. It enables users to play audio files from a directory and provides commands for pause, resume, skipping to the next song, and quitting the program. The code can be further extended and customized to add more functionalities and improve the user experience.
